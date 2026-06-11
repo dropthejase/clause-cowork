@@ -1,0 +1,58 @@
+# ── Secrets ──────────────────────────────────────────────
+.env
+.env.*
+.word-graph/.env
+
+# ── Python backend ────────────────────────────────────────
+backend/global.db
+backend/logs/
+backend/.venv/
+__pycache__/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# ── Node / monorepo ───────────────────────────────────────
+node_modules/
+**/node_modules/
+**/.vite/
+addin/dist/
+clause-cowork/dist/
+
+# ── Workspace cache (per-document, user-local) ────────────
+.word-graph/
+
+# ── Test data (kept local, not public) ────────────────────
+test-data/
+test-*
+
+# ── OS / editor ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+.vscode/*.code-workspace
+.idea/
+*.swp
+*.swo
+
+# ── Conversation exports (session artefacts) ──────────────
+*.txt
+!backend/requirements.txt
+
+# ── Docs / planning (kept local, not public) ─────────────
+docs/
+
+# ── Tooling scratch ───────────────────────────────────────
+dump/
+.claude/
+.superpowers/
+
+tmp
+backend/data/
+CLAUDE.md

@@ -1,0 +1,12 @@
+fastapi==0.136.1
+uvicorn[standard]==0.47.0
+starlette==1.0.0
+sse-starlette==3.4.4
+aiosqlite==0.20.0
+python-dotenv==1.0.1
+superdoc-sdk==1.11.0
+pydantic==2.13.4
+httpx==0.28.1
+pymupdf==1.27.2.3
+pytest==8.3.0
+pytest-asyncio==0.23.8

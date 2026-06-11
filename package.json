@@ -1,0 +1,9 @@
+{
+  "name": "word-graph-mode",
+  "private": true,
+  "workspaces": [
+    "addin",
+    "clause-cowork",
+    "packages/*"
+  ]
+}

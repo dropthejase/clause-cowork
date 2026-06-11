@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "paths": {
+      "@word-graph/shared": ["../packages/shared/src/index.ts"],
+      "@word-graph/shared/*": ["../packages/shared/src/*"]
+    }
+  },
+  "include": ["src"]
+}
